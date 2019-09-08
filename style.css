@@ -21,12 +21,12 @@
 
 .nav_div {
    position: absolute;
-   left: 15%;
+   align: center;
 }
 
 .navbar-nav > li {
-   padding-left: 75px;
-   padding-right: 75px;
+   padding-left: 80px;
+   padding-right: 80px;
    font-family: "Libre Baskerville", serif;
    font-size: 145%;
    color: #000000;
