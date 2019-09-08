@@ -1,15 +1,19 @@
 @charset "utf-8";
 
 .banner_div {
-   position: relative;
+   position: absolute;
+   margin: 0;
    top: 50%;
    left: 50%;
-   width: 65%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+   width: 70%;
    height: auto;
 }
 
 .banner_img {
    width: 100%;
    height: auto;
+   margin: 0;
 }
 
