@@ -1,6 +1,8 @@
 @charset "utf-8";
 
 .banner_div {
+   width: 68%;
+   height: auto;
    position: fixed;
    top: 50%;
    left: 50%;
@@ -9,11 +11,6 @@
    -moz-transform: translate(-50%, -50%);
    -o-transform: translate(-50%, -50%);
    -ms-transform: translate(-50%, -50%);
-}
-
-#banner_img {
-   width: 68%;
-   height: auto;
 }
 
 table {
