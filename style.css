@@ -22,14 +22,22 @@
 .nav_div {
    position: absolute;
    margin-top: 10px;
-   margin-left: 10px;
+   left: 30%;
 }
 
 .navbar-nav > li {
    padding-left: 70px;
    padding-right: 70px;
    font-family: "Libre Baskerville", serif;
-   color: black;
+   font-size: 150%;
+}
+
+.nav-item active {
+   color: #a9a9a9;
+}
+
+.nav-item {
+   color: #a9a9a9;
 }
 
 table {
