@@ -1,16 +1,10 @@
 @charset "utf-8";
 
 .banner_div {
-   margin: 0;
-   position: absolute;
-   top: 30%;
-   -ms-transform: translateY(-30%)
-   transform: translateY(-30%)
-   align: center;
-}
-
-.banner_img {
+   align-items: center;
+   display: flex;
+   justify-content: center;
    width: 70%;
-   align: center;
+   height: auto;
 }
 
