@@ -25,14 +25,8 @@
 }
 
 .navbar-nav > li {
-   padding-left: 80px;
-   padding-right: 80px;
    font-family: "Libre Baskerville", serif;
-   font-size: 145%;
-}
-
-.navbar-nav > p {
-   color: #000000;
+   font-size: 140%;
 }
 
 table {
