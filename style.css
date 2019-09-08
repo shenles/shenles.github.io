@@ -13,6 +13,11 @@
    -ms-transform: translate(-50%, -50%);
 }
 
+#banner_img {
+   width: auto;
+   height: 100%;
+}
+
 table {
    position: absolute;
    top: 0;
