@@ -25,8 +25,8 @@
 }
 
 .navbar-nav > li {
-   padding-left: 50%;
-   padding-right: 50%;
+   padding-left: 150%;
+   padding-right: 150%;
    font-family: "Libre Baskerville", serif;
    font-size: 140%;
 }
