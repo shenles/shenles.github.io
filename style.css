@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
 
 .banner_div {
-   width: 70%;
+   width: 65%;
    position: fixed;
    top: 35%;
    left: 50%;
@@ -29,6 +29,9 @@
    padding-right: 80px;
    font-family: "Libre Baskerville", serif;
    font-size: 145%;
+}
+
+.navbar-nav > p {
    color: #000000;
 }
 
