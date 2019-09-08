@@ -18,6 +18,10 @@
    object-fit: contain;
 }
 
+nav {
+   position: relative;
+}
+
 table {
    position: absolute;
    top: 0;
