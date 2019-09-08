@@ -18,6 +18,11 @@
    object-fit: contain;
 }
 
+.nav_div {
+   position: absolute;
+   margin-top: 20px;
+}
+
 table {
    position: absolute;
    top: 0;
