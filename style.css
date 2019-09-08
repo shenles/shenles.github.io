@@ -1,16 +1,16 @@
 @charset "utf-8";
 
-* {
+body {
+   height: 100%; 
    margin: 0;
    padding: 0;
 }
 
 .banner_div {
-   max-height: 40vh;
+   padding: 0;
+   display: block;
+   margin: 0 auto; 
+   max-height: 40%;
    max-width: 100%;
 }
 
-.banner_img {
-   max-width: 100%;
-   height: auto; 
-}
