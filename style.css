@@ -1,8 +1,11 @@
 @charset "utf-8";
 
 .banner_div {
-   position: relative;
+   margin: 0;
+   position: absolute;
    top: 30%;
+   -ms-transform: translateY(-30%)
+   transform: translateY(-30%)
    align: center;
 }
 
