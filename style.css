@@ -3,8 +3,8 @@
 .banner_div {
    width: 70%;
    position: fixed;
-   top: 40%;
-   left: 40%;
+   top: 50%;
+   left: 50%;
    transform: translate(-50%, -50%);
    -webkit-transform: translate(-50%, -50%);
    -moz-transform: translate(-50%, -50%);
