@@ -5,11 +5,11 @@
    position: fixed;
    top: 50%;
    left: 50%;
-   transform: translate(-40%, -40%);
-   -webkit-transform: translate(-40%, -40%);
-   -moz-transform: translate(-40%, -40%);
-   -o-transform: translate(-40%, -40%);
-   -ms-transform: translate(-40%, -40%);
+   transform: translate(-10%, -10%);
+   -webkit-transform: translate(-10%, -10%);
+   -moz-transform: translate(-10%, -10%);
+   -o-transform: translate(-10%, -10%);
+   -ms-transform: translate(-10%, -10%);
 }
 
 #banner_img {
