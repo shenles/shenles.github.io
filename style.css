@@ -8,11 +8,11 @@ body {
 
 .banner_div {
    position: relative;
-   top: 50%;
-   transform: translateY(-50%);
+   top: 30%;
 }
 
 .banner_img {
    width: 70%;
+   align: center;
 }
 
