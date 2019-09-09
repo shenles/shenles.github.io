@@ -30,8 +30,8 @@
    margin-right: 20%;
 }
 
-li {
-   color: #a9a9a9;
+.nav > li {
+   color: #696969;
 }
 
 a {
@@ -40,7 +40,7 @@ a {
 }
 
 a:link {
-   color: #a9a9a9;
+   color: #696969;
 }
 
 a:hover {
@@ -48,7 +48,7 @@ a:hover {
 }
 
 a:visited {
-   color: #a9a9a9;
+   color: #696969;
 }
 
 a:active {
