@@ -25,11 +25,31 @@
    left: 15%;
 }
 
+.nav_item {
+   margin-left: 8%;
+   margin-right: 8%;
+}
+
 a {
    font-family: "Libre Baskerville", serif;
    font-size: 120%;
 }
 
+a:link {
+   color: #a9a9a9;
+}
+
+a:hover {
+   color: #000000;
+}
+
+a:visited {
+   color: #a9a9a9;
+}
+
+a:active {
+   color: #000000;
+}
 
 table {
    position: absolute;
