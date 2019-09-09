@@ -26,7 +26,8 @@
 }
 
 .nav > li {
-   padding-left: 20%;
+   padding-left: 30px;
+   padding-right: 30px;
 }
 
 .nav-link {
