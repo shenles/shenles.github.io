@@ -19,7 +19,7 @@
    object-fit: contain;
 }
 
-.nav_div {
+.horiz_bar_div {
    width: 70%;
    position: absolute;
    left: 15%;
@@ -30,8 +30,12 @@
    margin-right: 20%;
 }
 
-.nav > li {
+.nav-link {
    color: #696969;
+}
+
+.nav-link:hover {
+   color: #000000;
 }
 
 a {
