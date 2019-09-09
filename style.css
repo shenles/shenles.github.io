@@ -27,7 +27,6 @@
 
 .nav > li {
    padding-left: 25%;
-   padding-right: 25%;
 }
 
 .nav-link {
@@ -43,21 +42,6 @@ a {
    font-size: 120%;
 }
 
-a:link {
-   color: #696969;
-}
-
-a:hover {
-   color: #000000;
-}
-
-a:visited {
-   color: #696969;
-}
-
-a:active {
-   color: #000000;
-}
 
 table {
    position: absolute;
