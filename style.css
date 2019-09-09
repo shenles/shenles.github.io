@@ -25,9 +25,9 @@
    left: 15%;
 }
 
-.nav_item {
-   padding-left: 10%;
-   padding-right: 10%;
+.nav > li {
+   padding-left: 15%;
+   padding-right: 15%;
 }
 
 .nav-link {
