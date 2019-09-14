@@ -454,6 +454,27 @@ a.dotted-link:hover {
   top: -1px;
 }
 
+/* Courses section */
+.courses .item {
+  margin-bottom: 15px;
+}
+
+.courses .item:last-child {
+  margin-bottom: 0;
+}
+
+.courses .item .title {
+  color: #778492;
+}
+
+.courses .item .fa {
+  color: #b0b7bf;
+}
+
+.courses .item .description {
+  color: #999;
+}
+
 /* Testimonials section */
 .testimonials .item {
   margin-bottom: 30px;
