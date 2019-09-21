@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+   <head>
+   <meta charset="utf-8">
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+
+   <link rel="stylesheet" type="text/css" href="./style.css"> 
+  
+   <title>D&D 5e</title> 
+   </head>
+    
+   <body>
+   
+   <h1>D&D Character Builder</h1>
+ 
+   <!-- bootstrap navbar --> 
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+         <a class="nav-link" href="#">Home</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Build New Character</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">View Saved Characters</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Classes</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Races</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Weapons</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Armor</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Spells</span></a></li>
+      </ul>
+    </div>   
+   </nav>
+
+   <div class="homepage-info">
+   <p>Welcome to the Dungeons & Dragons Character Builder and Quick Reference.</p> 
+   <p>Here you can customize a character and download 
+      a PDF character sheet filled out with your character's information.
+      You can also look up details about classes, races, weapons, armor, and spells.</p>
+   <p>Use the navigation bar to access the desired pages.</p> 
+   </div>
+
+   <!-- core Firebase JS SDK -->
+   <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+
+   <!-- add libraries -->
+   <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+
+   <script>
+      // Firebase configuration
+      var firebaseConfig = {
+         apiKey: "AIzaSyA5DBN92aWSzAVRJwKTTKmtMmzx530oXnA",
+         authDomain: "char-gen-dnd5e.firebaseapp.com",
+         databaseURL: "https://char-gen-dnd5e.firebaseio.com",
+         projectId: "char-gen-dnd5e",
+         storageBucket: "char-gen-dnd5e.appspot.com",
+         messagingSenderId: "1097525291457",
+         appId: "1:1097525291457:web:de8df27dd10b7f6052e740"
+      };
+
+      // initialize Firebase
+      firebase.initializeApp(firebaseConfig); 
+
+      // require Firebase and Cloud Firestore 
+      const firebase = require("firebase");
+      require("firebase/firestore");
+
+      // initialize Cloud Firestore
+      firebase.initializeApp({
+         apiKey: "AIzaSyA5DBN92aWSzAVRJwKTTKmtMmzx530oXnA",
+         authDomain: "char-gen-dnd5e.firebaseapp.com",
+         projectId: "char-gen-dnd5e"
+      });
+
+      var db = firebase.firestore();
+
+   </script>
+
+   </body>
+</html>
