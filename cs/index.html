@@ -49,14 +49,14 @@
                         <div class="content">
                             <p>I'm a recent college CS grad looking at developer roles in the Bay Area.
                                I always jump at the chance to do anything in Python, but I have a fondness
-                               for C/C++, and I like what I've seen of Java. I find pretty much everything extremely
+                               for C/C++, and I like what I've seen of Java. I find most things 
                                interesting and worth exploring, which is sometimes a curse, but much more 
                                often a blessing, as it keeps me humble and curious, and motivates me to learn everything I can. 
                             </p> 
-                            <p>Computer science is actually my 2nd bachelor's degree! I came to CS by way of a publishing job
-                               several years ago where I edited programming books. I found I enjoy programming as well as
-                               writing and editing - both feel similarly meditative to me. I also love to read, paint,
-                               run, and play D&D with my wonderful tabletop gaming group.
+                            <p>Computer science is actually my 2nd bachelor's degree! I became interested in CS at a publishing job
+                               several years ago where I edited programming books. I discovered that I enjoy programming as well as
+                               writing and editing - they feel similarly meditative to me. I also spend much of my time reading, painting,
+                               running, and playing D&D with my wonderful tabletop gaming group.
                             </p> 
 
                         </div><!--//content-->
@@ -79,40 +79,55 @@
                                     
                                 <div class="desc text-left">                                    
                                     <p>This is a command-line text adventure in the tradition of classics like <a href="https://en.wikipedia.org/wiki/Zork">Zork</a> and contemporary classics like <a href="https://en.wikipedia.org/wiki/Anchorhead">Anchorhead</a>. It's written in Python and intended to be played in the Unix shell. I helped organize and manage our remote team of 3 via email and Google Hangouts, and worked on all areas of the game including the story, game logic, and natural language processing.</p>
-                                    <p>The code for this project and other school projects resides in private repositories to comply with academic policies. If you're interested, please email me - I'd be happy to show you any of my projects.</p>
+                                    <p>Our team also put together a presentation for OSU's Fall 2019 CS Showcase. You can read our poster to learn more about our project.</p> 
+                                    <p>The code for this project and other school projects resides in private repositories to comply with academic policies. If you're interested, please <a href="mailto:leslieyshen@gmail.com">email me</a> - I'd be happy to show you any of my projects.</p>
                                 </div><!--//desc-->         
+                                <a class="btn btn-cta-secondary" href="capstone_poster.pdf" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i> View showcase poster</a>
                             </div><!--//item-->
+
+                            <div class="item featured text-center">
+                                <h3 class="title"><a href="assets/images/projects/344_smallsh.png" target="_blank">Small Shell in C</a></h3>
+                                <p class="summary">OSU Operating Systems Project</p>
+                                <div class="featured-image">
+                                    <a href="#" target="_blank">
+                                    <img class="img-fluid project-image" src="assets/images/projects/344_smallsh.png" alt="small shell in C" />
+                                    </a>
+                                </div>
+
+                                <div class="desc text-left">
+                                    <p>This is a bash-like shell I wrote in C for my Operating Systems course. It supports the built-in commands exit, cd, and status, some input and output redirection, managing parent and child processes, and some signal handling, along with a few other bells and whistles.</p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+
                             <hr class="divider" />
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-1.png" alt="project name" />
+                                <a class="col-md-4 col-12" href="assets/images/projects/372_ftp.png" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/372_ftp_min.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank">Instance - Bootstrap 4 Portfolio Theme for Aspiring Full Stack Developers</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/instance-bootstrap-portfolio-theme-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                    <h3 class="title"><a href="assets/images/projects/372_ftp.png" target="_blank">2-connection Client-server Network Application</a></h3>
+                                    <p class="mb-2">This is a file transfer program consisting of a file transfer server written in C and a file transfer client written in Python. The server and client establish a TCP control connection for sending and receiving commands and error messages, and a TCP data connection for sending and receiving data such as text files. An interesting problem that came up was making sure large text files were received perfectly intact, especially when the server sent data faster than the client could receive it.</p>
+                                </div><!--//desc-->                          
+                            </div><!--//item-->
+                           
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="assets/images/projects/372_chat.png" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/372_chat_min.png" alt="project name" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="assets/images/projects/372_chat.png" target="_blank">Client-server Network Application</a></h3>
+                                    <p class="mb-2">This is a simple chat system consisting of a chat server implemented in Python and a chat client implemented in C. The server program starts up on one host and waits on a specified port for client requests. The client starts on another host and connects on the specified port, and the two hosts can then alternate sending and receiving chat messages until one closes the connection. After the connection is closed, the chat server is available to accept other connections. This project, which I completed for my Networks course, was a fun way to gain familiarity with TCP and the sockets API.</p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
                             <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-2.png" alt="project name" />
+                                <a class="col-md-4 col-12" href="assets/images/projects/344_matrix.png" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/344_matrix_min.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank">DevStudio - Bootstrap 4 Theme for WebDev Agencies and Freelance Developers</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus. Aliquam aliquam, orci eu suscipit pellentesque, mauris dui tincidunt enim, eget iaculis ante dolor non turpis.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devstudio-bootstrap-theme-for-web-development-agencies-and-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
-                                </div><!--//desc-->                          
-                            </div><!--//item-->
-                            
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/project-4.png" alt="project name" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank">Nova Pro - Bootstrap 4 Theme for Mobile Startups</a></h3>
-                                    <p class="mb-2">You can put one of your secondary projects here. Suspendisse in tellus dolor. Vivamus a tortor eu turpis pharetra consequat quis non metus.</p>
-                                    <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/bootstrap-template-for-mobile-apps-nova-pro/" target="_blank"><i class="fas fa-external-link-alt"></i>Find out more</a></p>
+                                    <h3 class="title"><a href="assets/images/projects/344_matrix.png" target="_blank">Matrix Math Shell Script</a></h3>
+                                    <p class="mb-2">To become more familiar with bash builtins, Unix utilities, and shell programming in general, I wrote a bash shell script for my Operating Systems course that performs matrix operations using input from either a file or stdin. The script can print the dimensions of a matrix, transpose a matrix, calculate the mean vector of a matrix, add two matrices, and multiply two matrices.</p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->                            
                             
@@ -128,11 +143,6 @@
                                 <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank">Pillar - Free Bootstrap 4 Resume/CV Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
                                 <p class="summary">Provide a brief description of your project. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatu.</p>
                                 <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/resume/free-bootstrap4-resume-cv-template-for-developers-pillar/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
-                            </div><!--//item-->
-                            <div class="item">
-                                <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank">DevBlog - Free Bootstrap 4 Blog Template for Developers</a> <span class="badge badge-theme">Free</span></h3>
-                                <p class="summary">Provide a brief description of your project. Maecenas ornare ultricies risus, in fermentum augue consectetur in. Vestibulum vitae mauris iaculis, sollicitudin velit in, molestie nulla. </p>
-                                <p><a class="more-link" href="https://themes.3rdwavemedia.com/bootstrap-templates/speciality/devblog-free-bootstrap-4-blog-template-for-developers/" target="_blank"><i class="fas fa-external-link-alt"></i>Download Now</a></p>
                             </div><!--//item-->
                             <div class="item">
                                 <h3 class="title"><a href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/nova-bootstrap-landing-page-template-for-mobile-apps/" target="_blank">Nova - Free App Landing Page Template for App Developers</a> <span class="badge badge-theme">Free</span></h3>
@@ -191,11 +201,12 @@
                         <h2 class="heading">Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                Python is my favorite language.
+                                Python is probably my favorite language.
                                 I used C and C++ for the majority of my coursework at OSU. I also used 
                                 Java, JavaScript, PHP, SQL, and a little assembly language in school, as well as
-                                doing a bit of Bash shell scripting. I look forward to leveling up  
-                                in these skills before claiming proficiency.</p>
+                                doing some Bash shell scripting. I look forward to leveling up in these skills
+                                before claiming proficiency!  
+                            </p>
                             
                             <div class="skillset">
                                
@@ -222,15 +233,15 @@
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
-                               
+
                                 <div class="item">
                                     <h3 class="level-title">HTML5 & CSS3<span class="level-label">Familiar</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="25%">
+                                        <div class="level-bar-inner" data-level="15%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
-                            
+
                             </div>              
                         </div><!--//content-->  
                     </div><!--//section-inner-->                 
