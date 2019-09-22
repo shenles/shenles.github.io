@@ -48,12 +48,12 @@
                         <h2 class="heading">About Me</h2>
                         <div class="content">
                             <p>I'm a recent college CS grad looking at developer roles in the Bay Area.
-                               I always jump at the chance to do anything in Python, but I have a fondness
-                               for C/C++, and I like what I've seen of Java. I find most things 
+                               I always jump at the chance to do anything in Python, but I also have a fondness
+                               for C/C++, and I like what I've seen of Java. I find most things extremely 
                                interesting and worth exploring, which is sometimes a curse, but much more 
                                often a blessing, as it keeps me humble and curious, and motivates me to learn everything I can. 
                             </p> 
-                            <p>Computer science is actually my 2nd bachelor's degree! I became interested in CS at a publishing job
+                            <p>Computer science is actually my second bachelor's degree! I became interested in CS at a publishing job
                                several years ago where I edited programming books. I discovered that I enjoy programming as well as
                                writing and editing - they feel similarly meditative to me. I also spend much of my time reading, painting,
                                running, and playing D&D with my wonderful tabletop gaming group.
@@ -72,14 +72,15 @@
                                 <h3 class="title"><a href="capstone_poster.pdf" target="_blank">Command-Line Text Adventure Game</a></h3>
                                 <p class="summary">OSU Capstone Project</p>
                                 <div class="featured-image">
-                                    <a href="capstone_poster.pdf" target="_blank">
+                                    <a href="assets/images/projects/project-featured.png" target="_blank">
                                     <img class="img-fluid project-image" src="assets/images/projects/project-featured.png" alt="text adventure game" />
                                     </a>
                                 </div>
                                     
                                 <div class="desc text-left">                                    
-                                    <p>This is a command-line text adventure in the tradition of classics like <a href="https://en.wikipedia.org/wiki/Zork">Zork</a> and contemporary classics like <a href="https://en.wikipedia.org/wiki/Anchorhead">Anchorhead</a>. It's written in Python and intended to be played in the Unix shell. I helped organize and manage our remote team of 3 via email and Google Hangouts, and worked on all areas of the game including the story, game logic, and natural language processing.</p>
-                                    <p>Our team also put together a presentation for OSU's Fall 2019 CS Showcase. You can read our poster to learn more about our project.</p> 
+                                    <p>This is a command-line text adventure in the tradition of classics like <a href="https://en.wikipedia.org/wiki/Zork">Zork</a> and contemporary classics like <a href="https://en.wikipedia.org/wiki/Anchorhead">Anchorhead</a>. It's written in Python and intended to be played in the Unix shell. I helped organize and manage our remote team of three via email and Google Hangouts, and worked on all areas of the game including the story, game logic, and natural language processing.</p>
+                                    <p>Besides showing me how much a team can accomplish in just six weeks of development, this was also a great exercise in object-oriented design and allowed us to just scratch the surface of NLP (a topic I'm excited to explore in more depth).  
+Our team also put together a presentation for OSU's Fall 2019 CS Showcase. You can <a href="capstone_poster.pdf">read our poster</a> to learn more about our project.</p> 
                                     <p>The code for this project and other school projects resides in private repositories to comply with academic policies. If you're interested, please <a href="mailto:leslieyshen@gmail.com">email me</a> - I'd be happy to show you any of my projects.</p>
                                 </div><!--//desc-->         
                                 <a class="btn btn-cta-secondary" href="capstone_poster.pdf" target="_blank">
@@ -96,38 +97,38 @@
                                 </div>
 
                                 <div class="desc text-left">
-                                    <p>This is a bash-like shell I wrote in C for my Operating Systems course. It supports the built-in commands exit, cd, and status, some input and output redirection, managing parent and child processes, and some signal handling, along with a few other bells and whistles.</p>
+                                    <p>I wrote a simplified bash-like shell in C for my Operating Systems course. It supports the built-in commands exit, cd, and status, redirection of standard input and standard output, comments, some variable expansion, and foreground and background processes, along with a few other bells and whistles. This was a neat way to get more practice with C strings, file I/O, signals, forking processes, and zombie processes.</p>
                                 </div><!--//desc-->
                             </div><!--//item-->
 
                             <hr class="divider" />
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="assets/images/projects/372_ftp.png" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/372_ftp_min.png" alt="project name" />
+                                <img class="img-fluid project-image" src="assets/images/projects/372_ftp.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="assets/images/projects/372_ftp.png" target="_blank">2-connection Client-server Network Application</a></h3>
-                                    <p class="mb-2">This is a file transfer program consisting of a file transfer server written in C and a file transfer client written in Python. The server and client establish a TCP control connection for sending and receiving commands and error messages, and a TCP data connection for sending and receiving data such as text files. An interesting problem that came up was making sure large text files were received perfectly intact, especially when the server sent data faster than the client could receive it.</p>
+                                    <p class="mb-2">I wrote a file transfer program for my Networks course consisting of a file transfer server written in C and a file transfer client written in Python. The server and client establish two TCP connections: a control connection for sending/receiving commands and error messages, and a data connection for sending/receiving data such as text files. An interesting problem that came up was making sure large files were received perfectly intact, especially when the server sent data faster than the client could receive it.</p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                            
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="assets/images/projects/372_chat.png" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/372_chat_min.png" alt="project name" />
+                                <img class="img-fluid project-image" src="assets/images/projects/372_chat.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="assets/images/projects/372_chat.png" target="_blank">Client-server Network Application</a></h3>
-                                    <p class="mb-2">This is a simple chat system consisting of a chat server implemented in Python and a chat client implemented in C. The server program starts up on one host and waits on a specified port for client requests. The client starts on another host and connects on the specified port, and the two hosts can then alternate sending and receiving chat messages until one closes the connection. After the connection is closed, the chat server is available to accept other connections. This project, which I completed for my Networks course, was a fun way to gain familiarity with TCP and the sockets API.</p>
+                                    <p class="mb-2">This is a simple chat system consisting of a chat server written in Python and a chat client written in C. The server program waits on a specified port for client requests. The client connects on the specified port, and the two hosts then alternate sending and receiving messages until one closes the connection. After the connection is closed, the server is available to accept other connections. This project, which I completed for my Networks course, was a fun way to gain familiarity with TCP and the sockets API.</p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
                             
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="assets/images/projects/344_matrix.png" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/344_matrix_min.png" alt="project name" />
+                                <img class="img-fluid project-image" src="assets/images/projects/344_matrix.png" alt="project name" />
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="assets/images/projects/344_matrix.png" target="_blank">Matrix Math Shell Script</a></h3>
-                                    <p class="mb-2">To become more familiar with bash builtins, Unix utilities, and shell programming in general, I wrote a bash shell script for my Operating Systems course that performs matrix operations using input from either a file or stdin. The script can print the dimensions of a matrix, transpose a matrix, calculate the mean vector of a matrix, add two matrices, and multiply two matrices.</p>
+                                    <p class="mb-2">To become more familiar with Unix utilities and shell programming, I wrote a bash shell script for my Operating Systems course that performs matrix operations using input from a file or stdin. The script can print the dimensions of a matrix, transpose a matrix, calculate the mean vector of a matrix, add two matrices, and multiply two matrices.</p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->                            
                             
@@ -201,11 +202,11 @@
                         <h2 class="heading">Skills</h2>
                         <div class="content">
                             <p class="intro">
-                                Python is probably my favorite language.
+                                Python is probably my favorite language to work with.
                                 I used C and C++ for the majority of my coursework at OSU. I also used 
                                 Java, JavaScript, PHP, SQL, and a little assembly language in school, as well as
-                                doing some Bash shell scripting. I look forward to leveling up in these skills
-                                before claiming proficiency!  
+                                doing some bash shell scripting. I look forward to leveling up these skills
+                                before claiming proficiency in them!  
                             </p>
                             
                             <div class="skillset">
