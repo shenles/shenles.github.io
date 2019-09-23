@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+   <head>
+   <meta charset="utf-8">
+   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+
+   <link rel="stylesheet" type="text/css" href="./style.css"> 
+  
+   <title>D&D 5e Classes</title> 
+   </head>
+    
+   <body>
+   
+   <h1>5e Classes</h1>
+ 
+   <!-- bootstrap navbar --> 
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+         <a class="nav-link" href="index.html">Home</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Build New Character</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">View Saved Characters</span></a></li>
+        <li class="nav-item active">
+         <a class="nav-link" href="classes.html">Classes</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Races</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Weapons</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Armor</span></a></li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Spells</span></a></li>
+      </ul>
+    </div>   
+   </nav>
+
+   <div class="entitytable">
+      <h2>View existing classes</h2>
+      <table>
+         <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>save1</th>
+            <th>save2</th>
+            <th>hitdie</th>
+            <th>hp_lvl1</th>
+            <th>hp_gain_per_lvl</th>
+            <th>specialization</th>
+         </tr>
+      </table>
+   </div>
+
+   <script>
+      // Firebase configuration
+      var firebaseConfig = {
+         apiKey: "AIzaSyA5DBN92aWSzAVRJwKTTKmtMmzx530oXnA",
+         authDomain: "char-gen-dnd5e.firebaseapp.com",
+         databaseURL: "https://char-gen-dnd5e.firebaseio.com",
+         projectId: "char-gen-dnd5e",
+         storageBucket: "char-gen-dnd5e.appspot.com",
+         messagingSenderId: "1097525291457",
+         appId: "1:1097525291457:web:de8df27dd10b7f6052e740"
+      };
+      // initialize Firebase
+      firebase.initializeApp(firebaseConfig); 
+      // require Firebase and Cloud Firestore 
+      const firebase = require("firebase");
+      require("firebase/firestore");
+      // initialize Cloud Firestore
+      firebase.initializeApp({
+         apiKey: "AIzaSyA5DBN92aWSzAVRJwKTTKmtMmzx530oXnA",
+         authDomain: "char-gen-dnd5e.firebaseapp.com",
+         projectId: "char-gen-dnd5e"
+      });
+
+      var db = firebase.firestore();
+
+      db.collection("classes").add(
+          {id: 1, name: "Barbarian", save1: "Str", save2: "Con", hitdie: "d12", hp_lvl1: "12+Con", hp_gain_per_lvl: "1d12+Con", specialization: "Primal Paths"}
+      )   
+      .then(function(docRef) {
+          console.log("Document written with ID: ", docRef.id);
+      })
+      .catch(function(error) {
+          console.error("Error adding document: ", error);
+      });
+   </script>
+
+   <!-- core Firebase JS SDK -->
+   <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
+   <!-- add libraries -->
+   <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
+   <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
+
+   </body>
+</html>

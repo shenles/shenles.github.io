@@ -47,42 +47,5 @@
    <p>Use the navigation bar to access the desired pages.</p> 
    </div>
 
-   <!-- core Firebase JS SDK -->
-   <script src="https://www.gstatic.com/firebasejs/6.6.2/firebase-app.js"></script>
-
-   <!-- add libraries -->
-   <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-app.js"></script>
-   <script src="https://www.gstatic.com/firebasejs/6.6.1/firebase-firestore.js"></script>
-
-   <script>
-      // Firebase configuration
-      var firebaseConfig = {
-         apiKey: "AIzaSyA5DBN92aWSzAVRJwKTTKmtMmzx530oXnA",
-         authDomain: "char-gen-dnd5e.firebaseapp.com",
-         databaseURL: "https://char-gen-dnd5e.firebaseio.com",
-         projectId: "char-gen-dnd5e",
-         storageBucket: "char-gen-dnd5e.appspot.com",
-         messagingSenderId: "1097525291457",
-         appId: "1:1097525291457:web:de8df27dd10b7f6052e740"
-      };
-
-      // initialize Firebase
-      firebase.initializeApp(firebaseConfig); 
-
-      // require Firebase and Cloud Firestore 
-      const firebase = require("firebase");
-      require("firebase/firestore");
-
-      // initialize Cloud Firestore
-      firebase.initializeApp({
-         apiKey: "AIzaSyA5DBN92aWSzAVRJwKTTKmtMmzx530oXnA",
-         authDomain: "char-gen-dnd5e.firebaseapp.com",
-         projectId: "char-gen-dnd5e"
-      });
-
-      var db = firebase.firestore();
-
-   </script>
-
    </body>
 </html>
