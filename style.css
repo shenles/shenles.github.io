@@ -20,14 +20,14 @@
 }
 
 .horiz_bar_div {
-   width: 70%;
+   width: 65%;
    position: absolute;
-   left: 15%;
+   left: 18%;
 }
 
 .nav > li {
-   padding-left: 30px;
-   padding-right: 30px;
+   padding-left: 40px;
+   padding-right: 40px;
 }
 
 .nav-link {
