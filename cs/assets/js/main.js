@@ -52,8 +52,5 @@ jQuery(document).ready(function($) {
         }
     );
     
-    /* Github Calendar */
-    new GitHubCalendar("#github-graph", "shenles");
-
 
 });
