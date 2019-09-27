@@ -55,7 +55,5 @@ jQuery(document).ready(function($) {
     /* Github Calendar */
     new GitHubCalendar("#github-graph", "shenles");
 
-    /* Github Activity Feed */
-    GitHubActivity.feed({ username: "shenles", selector: "#ghfeed" });
 
 });
