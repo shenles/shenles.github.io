@@ -36,14 +36,25 @@ a {
    font-family: "Libre Baskerville", serif;
 } 
 
-@media (max-width: 600px) {
+@media (max-width: 500px) {
    a {
      font-size: 16px;
    }
    .horiz_bar_div {
      width: 80%;
      position: absolute;
-     left: 10%;
+     left: 8%;
+   }
+}
+
+@media (min-width: 500px) and (max-width: 1000px) {
+   a {
+     font-size: 18px;
+   }
+   .horiz_bar_div {
+     width: 70%;
+     position: absolute;
+     left: 15%;
    }
 }
 
