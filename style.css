@@ -41,9 +41,9 @@ a {
      font-size: 16px;
    }
    .horiz_bar_div {
-     width: 60%;
+     width: 65%;
      position: absolute;
-     left: 12%;
+     left: 10%;
    }
 }
 
