@@ -46,7 +46,7 @@ a {
    }
 }
 
-@media (min-width: 415px) and (max-width: 500px) {
+@media (min-width: 415px) and (max-width: 600px) {
    a {
      font-size: 16px;
    }
@@ -61,7 +61,7 @@ a {
    }
 }
 
-@media (min-width: 500px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 1000px) {
    a {
      font-size: 18px;
    }
@@ -76,14 +76,29 @@ a {
    }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1000px) and (max-width: 1200px) {
    a {
-     font-size: 22px;
+     font-size: 20px;
    }
    .horiz_bar_div {
      width: 62%;
      position: absolute;
      left: 19%;
+   }
+   .nav > li {
+     padding-left: 10%;
+     padding-right: 12%;
+   }
+}
+
+@media (min-width: 1200px) {
+   a {
+     font-size: 22px;
+   }
+   .horiz_bar_div {
+     width: 60%;
+     position: absolute;
+     left: 20%;
    }
    .nav > li {
      padding-left: 10%;
