@@ -19,15 +19,9 @@
    object-fit: contain;
 }
 
-.horiz_bar_div {
-   width: 65%;
-   position: absolute;
-   left: 16%;
-}
-
 .nav > li {
-   padding-left: 60px;
-   padding-right: 60px;
+   padding-left: 50px;
+   padding-right: 50px;
 }
 
 .nav-link {
@@ -46,11 +40,21 @@ a {
    a {
      font-size: 16px;
    }
+   .horiz_bar_div {
+     width: 60%;
+     position: absolute;
+     left: 12%;
+   }
 }
 
 @media (min-width: 1000px) {
    a {
      font-size: 22px;
+   }
+   .horiz_bar_div {
+     width: 60%;
+     position: absolute;
+     left: 20%;
    }
 }
 
