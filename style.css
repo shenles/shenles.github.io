@@ -20,8 +20,8 @@
 }
 
 .nav > li {
-   padding-left: 50px;
-   padding-right: 50px;
+   padding-left: 10%;
+   padding-right: 10%;
 }
 
 .nav-link {
@@ -36,18 +36,18 @@ a {
    font-family: "Libre Baskerville", serif;
 } 
 
-@media (max-width: 300px) {
+@media (max-width: 415px) {
    a {
-     font-size: 13px;
+     font-size: 12px;
    }
    .horiz_bar_div {
-     width: 88%;
+     width: 90%;
      position: absolute;
-     left: 6%;
+     left: 5%;
    }
 }
 
-@media (min-width: 300px) and (max-width: 500px) {
+@media (min-width: 415px) and (max-width: 500px) {
    a {
      font-size: 16px;
    }
