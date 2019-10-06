@@ -115,6 +115,11 @@ a.dotted-link:hover {
   color: #49515a;
 }
 
+/* fix for old safari versions */
+.row:before, .row:after {
+  display: none !important;
+}
+
 /* ======= Header ======= */
 .header {
   padding: 30px 0;
@@ -661,13 +666,4 @@ a.dotted-link:hover {
     width: 1360px;
     max-width: inherit;
   }
-
-  .flex-box {
-    display:-webkit-flex;
-    display:-webkit-box;
-    display:-moz-flex;
-    display:-moz-box;
-    display:-ms-flexbox;
-    display:flex;
-  } 
 }
