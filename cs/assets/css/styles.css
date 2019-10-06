@@ -117,7 +117,7 @@ a.dotted-link:hover {
 
 /* fix for old safari versions */
 .row:before, .row:after {
-  display: none !important;
+  display: inline-block;
 }
 
 /* ======= Header ======= */
