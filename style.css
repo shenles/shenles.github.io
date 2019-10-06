@@ -21,7 +21,7 @@
 
 .nav > li {
    padding-left: 10%;
-   padding-right: 10%;
+   padding-right: 8%;
 }
 
 .nav-link {
@@ -54,7 +54,7 @@ a {
    .horiz_bar_div {
      width: 76%;
      position: absolute;
-     left: 10%;
+     left: 12%;
    }
 }
 
@@ -63,9 +63,9 @@ a {
      font-size: 18px;
    }
    .horiz_bar_div {
-     width: 70%;
+     width: 66%;
      position: absolute;
-     left: 15%;
+     left: 17%;
    }
 }
 
