@@ -40,8 +40,8 @@
 
 a {
    font-family: "Libre Baskerville", serif;
-   font-size: 120%;
-}
+   font-size: calc(14px + 12 * ((100vw - 300px) / 1300)));
+} 
 
 nav.navbar.navbar-light.bg-light {
    background: #ffffff !important;
