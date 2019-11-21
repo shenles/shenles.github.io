@@ -49,14 +49,14 @@
                         <div class="content">
                             <p>I'm a new CS grad looking at software engineering roles in the Bay Area.
                                I always jump at the chance to make something in Python, but I'm also fond 
-                               of C and C++. I find most things extremely 
+                               of C and C++, among other things. I find most things extremely 
                                interesting and worth exploring, which is sometimes a curse (the more you know,
                                the more you know you don't know), but much more 
-                               often a blessing, as it keeps me curious and motivates me to learn everything I can. 
+                               often a blessing, as it keeps me humble and curious, and motivates me to learn everything I can. 
                             </p> 
                             <p>Computer science is actually my 2nd bachelor's degree! I became interested in CS at a publishing job
-                               several years ago where I edited programming books. I discovered that I enjoy programming as well as
-                               writing and editing - they feel similarly meditative to me. I also spend much of my time reading, painting,
+                               where I edited programming books. I discovered that I enjoy programming as well as
+                               writing and editing - they feel similarly meditative to me. I also spend much of my time reading, drawing,
                                and playing D&D with my wonderful tabletop gaming group.
                             </p> 
 
@@ -110,17 +110,7 @@ Our team also put together a presentation for OSU's Fall 2019 CS Showcase. You c
                                 </a>
                                 <div class="desc col-md-8 col-12">
                                     <h3 class="title"><a href="assets/images/projects/dnd_db.png" target="_blank">D&D Database</a></h3>
-                                    <p class="mb-2">I'm currently working on a Dungeons & Dragons database/character creator using PHP, MySQL, MariaDB, JavaScript, and Heroku. My project will allow users to browse and search/filter D&D classes, races, backgrounds, equipment, and spells, and also to add, edit, and delete their own data when logged in. When it's done, it'll help me and my gaming group streamline the process of creating characters, leveling up, and looking up information. You can visit the project website <a href="https://dnd-chargen.herokuapp.com">here</a>.</p>
-                                </div><!--//desc-->
-                            </div><!--//item-->
-
-                            <div class="item row">
-                                <a class="col-md-4 col-12" href="assets/images/projects/344_adventure.png" target="_blank">
-                                <img class="img-fluid project-image" src="assets/images/projects/344_adventure_min.png" alt="mini exploration game" />
-                                </a>
-                                <div class="desc col-md-8 col-12">
-                                    <h3 class="title"><a href="assets/images/projects/344_adventure.png" target="_blank">Exploration Game/Random Map Generator</a></h3>
-                                    <p class="mb-2">This is a bare-bones version of a Zork-like room exploration game. I made this for my Operating Systems course, so the focus wasn't on the game setting/story, but on working with strings and file I/O in C on a Unix-based system. The program generates a different room structure each time it is run by building a random connected room graph. It also uses mutexes and multithreading to report time and write to files while the user is playing the game.</p>
+                                    <p class="mb-2">I'm currently working on a Dungeons & Dragons database/character creator using PHP, MySQL, JavaScript, Bootstrap, and Heroku. My project will allow users to browse and search/filter D&D classes, races, backgrounds, equipment, and spells, and also to add, edit, and delete their own data when logged in. When it's done, it'll help me and my gaming group streamline the process of creating characters, leveling up, and looking up information. You can visit the project website <a href="https://dnd-chargen.herokuapp.com">here</a>.</p>
                                 </div><!--//desc-->
                             </div><!--//item-->
 
@@ -133,7 +123,17 @@ Our team also put together a presentation for OSU's Fall 2019 CS Showcase. You c
                                     <p class="mb-2">I wrote a file transfer program for my Networks course consisting of a file transfer server written in C and a file transfer client written in Python. The server and client establish two TCP connections: a control connection for sending/receiving commands and error messages, and a data connection for sending/receiving data such as text files. An interesting problem that came up was making sure large files were received perfectly intact, especially when the server sent data faster than the client could receive it.</p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->
-                           
+                          
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="assets/images/projects/344_adventure.png" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/344_adventure_min.png" alt="mini exploration game" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="assets/images/projects/344_adventure.png" target="_blank">Exploration Game/Random Map Generator</a></h3>
+                                    <p class="mb-2">This is a bare-bones version of a Zork-like room exploration game. I made this for my Operating Systems course, so the focus wasn't on the game setting/story, but on working with strings and file I/O in C on a Unix-based system. The program generates a different room structure each time it is run by building a random connected room graph. It also uses mutexes and multithreading to report time and write to files while the user is playing the game.</p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
+ 
                             <div class="item row">
                                 <a class="col-md-4 col-12" href="assets/images/projects/372_chat.png" target="_blank">
                                 <img class="img-fluid project-image" src="assets/images/projects/372_chat_min.png" alt="chat program" />
@@ -153,10 +153,20 @@ Our team also put together a presentation for OSU's Fall 2019 CS Showcase. You c
                                     <p class="mb-2">To become more familiar with Unix utilities and shell programming, I wrote a bash shell script for my Operating Systems course that performs matrix operations using input from a file or stdin. The script can print the dimensions of a matrix, transpose a matrix, calculate the mean vector of a matrix, add two matrices, and multiply two matrices.</p>
                                 </div><!--//desc-->                          
                             </div><!--//item-->                            
+
+                            <div class="item row">
+                                <a class="col-md-4 col-12" href="assets/images/projects/montecarlo.jpg" target="_blank">
+                                <img class="img-fluid project-image" src="assets/images/projects/montecarlomin.jpg" alt="Monte Carlo simulation with CUDA" />
+                                </a>
+                                <div class="desc col-md-8 col-12">
+                                    <h3 class="title"><a href="assets/images/projects/montecarlo.png" target="_blank">CUDA Monte Carlo Simulation</a></h3>
+                                    <p class="mb-2">In this project for my Parallel Programming course, I took a scenario involving a laser beam pointed at a circle that is randomly changing size and location, and developed a Monte Carlo simulation for it to determine the probability of the beam ricocheting off the circle and hitting a plate below. Running the hundreds of thousands of trials in this simulation was a good use for GPU parallelism! I used C++ and CUDA to pass data between the CPU and GPU, and run and time the simulation.</p>
+                                </div><!--//desc-->
+                            </div><!--//item-->
                            
                             <div class="item">
                                  <h3 class="title">Other Projects</h3>
-                                 <p> In addition to the projects above, I have several other school projects in C and C++ that I'd be happy to discuss. There are also several entertaining projects from my Assembly Language and Parallel Programming courses that I'd enjoy talking about!</p>
+                                 <p> In addition to the projects above, I have several other school projects in C and C++ that I'd be happy to discuss. There are also some entertaining projects from my Assembly Language and Parallel Programming courses that I'd enjoy talking about!</p>
                             </div>
  
                         </div><!--//content-->  
@@ -165,21 +175,18 @@ Our team also put together a presentation for OSU's Fall 2019 CS Showcase. You c
                
                 <section class="experience section">
                     <div class="section-inner">
-                        <h2 class="heading">Recent Experience</h2>
+                        <h2 class="heading">Relevant Recent Experience</h2>
                         <div class="content">
                             <div class="item">
                                 <h3 class="title">EECS Peer Advisor - <span class="place"><a href="#">Oregon State University</a></span> <span class="year">(2018 - 2019)</span></h3>
                                 <p>Provided remote tutoring, academic coaching, and career guidance to post-baccalaureate CS students via Google Hangouts and BitPaper. Improved students' understanding of fundamental topics including discrete math, programming in C/C++, and data structures.</p>
                             </div><!--//item-->
+
                             <div class="item">
                                 <h3 class="title">CS Teaching Assistant - <span class="place"><a href="#">City College of San Francisco</a></span> <span class="year">(2019)</span></h3>
                                 <p>Volunteered to TA for CS 110A Intro to Programming. Taught Python and general programming concepts, graded assignments on Canvas and Repl.it, and helped manage a team of 4 TAs.</p>
                             </div><!--//item-->
 
-                            <div class="item">
-                                <h3 class="title">Substitute Teacher - <span class="place"><a href="#">Palo Alto Unified School District</a></span> <span class="year">(2014 - 2018)</span></h3>
-                                <p>Taught students in grades K - 12. Supervised classes and exams, resolved issues, and communicated with staff/parents to promote student success.</p>
-                            </div><!--//item-->
                             <div class="item">
                                 <h3 class="title">Editorial Assistant - <span class="place"><a href="#">No Starch Press</a></span> <span class="year">(2014 - 2015)</span></h3>
                                 <p>Edited programming books such as <i>Python Crash Course (1e)</i>, <i>Teach Your Kids to Code</i>, and <i>Automate the Boring Stuff with Python</i>. Helped authors revise their material by testing code, recommending bug fixes, and suggesting improvements to projects.</p>
@@ -232,7 +239,7 @@ Our team also put together a presentation for OSU's Fall 2019 CS Showcase. You c
                                 <div class="item">
                                     <h3 class="level-title">C<span class="level-label">Familiar</span></h3>
                                     <div class="level-bar">
-                                        <div class="level-bar-inner" data-level="25%">
+                                        <div class="level-bar-inner" data-level="20%">
                                         </div>                                      
                                     </div><!--//level-bar-->                                 
                                 </div><!--//item-->
