@@ -1,6 +1,5 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville");
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display");
 
 /*-----------------------------------------------------------*/
 /* Home  
@@ -68,16 +67,16 @@ a {
 
 @media (min-width: 600px) and (max-width: 900px) {
    a {
-     font-size: 18px;
+     font-size: 16px;
    }
    .horiz_bar_div {
-     width: 64%;
+     width: 70%;
      position: absolute;
-     left: 18%;
+     left: 15%;
    }
    .nav > li {
-     padding-left: 20px;
-     padding-right: 20px;
+     padding-left: 15px;
+     padding-right: 15px;
    }
 }
 
@@ -86,9 +85,9 @@ a {
      font-size: 18px;
    }
    .horiz_bar_div {
-     width: 62%;
+     width: 70%;
      position: absolute;
-     left: 19%;
+     left: 15%;
    }
    .nav > li {
      padding-left: 20px;
@@ -134,13 +133,13 @@ td {
 #about {
   width: 100%;
   height: auto;
-  background: #f7f7f7;
+  background: #ffffff;
   padding-top: 120px;
 }
 
 #about .div-img-bg {
   padding-bottom: 30px;
-  border: 20px solid #b8a07e;
+  border: 20px solid #818c76;
 }
 
 #about .div-img-bg .about-img img {
@@ -154,7 +153,7 @@ td {
 }
 
 #about .about-descr .p-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Poppins', helvetica;
   font-size: 28px;
   text-align: left;
 }
