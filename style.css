@@ -29,7 +29,8 @@
 }
 
 a {
-   font-family: "Libre Baskerville", serif;
+   font-family: "Poppins", helvetica;
+   font-weight: 500;
 } 
 
 @media (max-width: 415px) {

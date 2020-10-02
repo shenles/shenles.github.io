@@ -3,11 +3,11 @@
 /*-----------------------------------------------------------*/
 
 .nav-link {
-   color: #545450;
+   color: #7a7a77;
 }
 
 .nav-link:hover {
-   color: #000000;
+   color: #545450; 
 }
 
 nav ul li a {
@@ -53,3 +53,38 @@ nav ul li a {
   text-align: left;
   color: #7a7a77;
 }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 767px) {
+#about .div-img-bg {
+    padding: 0;
+  }
+  #about .div-img-bg .about-img img {
+    margin-top: 0%;
+    margin-left: calc(0% - 0px);
+  }
+  #about .about-descr .p-heading {
+    font-size: 20px;
+  }
+  #about .about-descr .separator {
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+}
+
