@@ -19,7 +19,7 @@ nav ul li a {
   letter-spacing: 0.1em;
   font-weight: 500;
   line-height: 14px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 #about {
@@ -47,7 +47,7 @@ nav ul li a {
 
 #about .about-descr .separator {
   font-family: 'Poppins', helvetica;
-  max-width: 70%;
+  max-width: 75%;
   margin-bottom: 0;
   margin-top: 10px; 
   text-align: left;
