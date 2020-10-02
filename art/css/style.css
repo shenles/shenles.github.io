@@ -1,6 +1,18 @@
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
+.nav-link {
+   color: #545450;
+}
+
+.nav-link:hover {
+   color: #000000;
+}
+
+.bar-div {
+  left: 12%;
+}
+
 body {
   background: #ffffff;
   color: #898989;
