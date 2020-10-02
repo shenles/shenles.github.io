@@ -1,18 +1,6 @@
 /*  General Styling
 /*-----------------------------------------------------------------------------------*/
 
-.nav-link {
-   color: #545450;
-}
-
-.nav-link:hover {
-   color: #000000;
-}
-
-.bar-div {
-  left: 12%;
-}
-
 body {
   background: #ffffff;
   color: #898989;
@@ -65,7 +53,7 @@ a:hover {
 }
 
 a:hover, a:focus {
-  color: #5a7694;
+  color: #545450;
   text-decoration: underline;
 }
 
@@ -95,12 +83,12 @@ p {
 }
 
 ::-moz-selection {
-  background: #5a7694;
+  background: #545450;
   color: #fff;
 }
 
 ::selection {
-  background: #5a7694;
+  background: #545450;
   color: #fff;
 }
 
@@ -169,7 +157,7 @@ p {
 }
 
 .hvr-shutter-in-horizontal:hover {
-  background: #5a7694;
+  background: #545450;
 }
 
 .mb-30 {
@@ -213,7 +201,7 @@ p {
 }
 
 #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active  {
-  color: #5a7694;
+  color: #545450;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;
@@ -288,7 +276,7 @@ p {
 }
 
 .journal-block .journal-info .journal-txt h4 a:hover {
-  color: #5a7694;
+  color: #545450;
   -moz-transition: all 0.5s ease-in-out 0s;
   -ms-transition: all 0.5s ease-in-out 0s;
   -o-transition: all 0.5s ease-in-out 0s;

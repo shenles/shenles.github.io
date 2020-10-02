@@ -14,10 +14,6 @@ a {
    font-family: "Poppins", helvetica;
 }
 
-.bar-div {
-  left: 12%;
-}
-
 #about {
   width: 100%;
   height: auto;
@@ -26,10 +22,12 @@ a {
 }
 
 #about .div-img-bg .about-img img {
-  width: 95%;
+  width: 100%;
   margin-top: -60px;
   margin-left: 40px;
   height: 400px;
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 #about .about-descr .p-heading {
@@ -43,6 +41,7 @@ a {
   font-family: 'Poppins', helvetica;
   max-width: 75%;
   margin-bottom: 0;
+  margin-top: 10px; 
   text-align: left;
   color: #7a7a77;
 }
